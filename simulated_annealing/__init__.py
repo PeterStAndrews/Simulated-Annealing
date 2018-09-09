@@ -23,5 +23,5 @@ This library contains a detailed simulated annealing algorithim in python 2.7 th
 '''
 
 from .sim_ann import SimAnn
-from .details.py import Details
-from user_section import UserSection
+from .details import Details
+from .user_section import UserSection
