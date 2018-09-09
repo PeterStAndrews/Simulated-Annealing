@@ -19,11 +19,11 @@
 
 import numpy
 
-class details( SimAnn ):
+class Details( SimAnn ):
     '''This sub-class specifies the details of the MCMC experiment'''
     
     def __init__(self, parameters):
-        super(details, self).__init__(parameters)
+        super(Details, self).__init__(parameters)
         
         self._initial_temperature = parameters['initial_temperature'] 
         self._final_temperature = parameters['final_temperature'] 
