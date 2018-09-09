@@ -18,13 +18,13 @@
 # along with `simulated annealing`. If not, see <http://www.gnu.org/licenses/gpl.html>.
 
 
-class user_section( details ):
+class UserSection( details ):
     '''The sub-class tailors the algorithm to the user's experiment we wish to minimise. This section is highly 
     user-defined and creates the random walk through the parameter space as well as the generation of the 
     cost function'''
     
     def __init__(self, parameters):
-        super(user_section, self).__init__(parameters) 
+        super(UserSection, self).__init__(parameters) 
         
     def null_updates( self, parameters ):
         '''function returns parameters without modification'''
