@@ -1,4 +1,6 @@
 # Initialisation for `simulated annealing`
+# This library contains a detailed simulated annealing algorithim 
+# in python 2.7 that can be readily customised for purpose.
 #
 # Copyright (C) 2016 Peter Mann
 # 
@@ -18,9 +20,7 @@
 # along with `simulated annealing`. If not, see <http://www.gnu.org/licenses/gpl.html>.
 
 
-'''
-This library contains a detailed simulated annealing algorithim in python 2.7 that can be readily customised for purpose.
-'''
+
 
 from .sim_ann import SimAnn
 from .details import Details
